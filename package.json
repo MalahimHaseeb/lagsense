@@ -73,7 +73,10 @@
         "deb"
       ],
       "category": "Utility",
-      "icon": "build/icons"
+      "icon": "build/icons",
+      "desktop": {
+        "StartupWMClass": "lagsense"
+      }
     }
   }
 }

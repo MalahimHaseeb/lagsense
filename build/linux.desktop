@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Lagsense
+Exec=${exec} %U
+Terminal=false
+Type=Application
+Icon=${icon}
+StartupWMClass=lagsense
+Comment=System diagnostics assistant that explains performance issues in plain English
+Categories=Utility;
