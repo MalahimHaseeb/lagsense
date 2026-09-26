@@ -78,7 +78,12 @@
       ],
       "category": "Utility",
       "icon": "build/icons",
-      "executableName": "lagsense"
+      "executableName": "lagsense",
+      "desktop": {
+        "entry": {
+          "StartupWMClass": "lagsense"
+        }
+      }
     }
   }
 }
