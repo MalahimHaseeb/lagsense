@@ -16,6 +16,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:linux": "npm run build && electron-builder --linux --publish never",
+    "build:win": "npm run build && electron-builder --win --publish never",
+    "build:mac": "npm run build && electron-builder --mac --publish never",
     "preview": "vite preview",
     "dist": "npm run build && electron-builder --publish=never",
     "release": "npm run build && electron-builder --publish=always",
@@ -47,6 +50,7 @@
   "build": {
     "appId": "dev.malahim.lagsense",
     "productName": "Lagsense",
+    "desktopName": "lagsense",
     "icon": "build/icon.png",
     "afterPack": "build/afterPack.cjs",
     "files": [
@@ -74,17 +78,7 @@
         "deb"
       ],
       "category": "Utility",
-      "icon": "build/icons",
-      "desktop": {
-        "entry": {
-          "Name": "Lagsense",
-          "StartupWMClass": "lagsense",
-          "Comment": "System diagnostics assistant that explains performance issues in plain English",
-          "Categories": "Utility;",
-          "Terminal": false,
-          "Type": "Application"
-        }
-      }
+      "icon": "build/icons"
     }
   }
 }
