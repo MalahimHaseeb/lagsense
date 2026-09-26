@@ -81,7 +81,8 @@
       "executableName": "lagsense",
       "desktop": {
         "StartupWMClass": "lagsense"
-      }
+      },
+      "afterInstall": "build/afterInstall.sh"
     }
   }
 }
