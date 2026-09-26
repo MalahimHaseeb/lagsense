@@ -46,7 +46,7 @@
   },
   "build": {
     "appId": "dev.malahim.lagsense",
-    "productName": "lagsense",
+    "productName": "Lagsense",
     "icon": "build/icon.png",
     "afterPack": "build/afterPack.cjs",
     "files": [
