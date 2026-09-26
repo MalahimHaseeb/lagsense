@@ -74,7 +74,17 @@
         "deb"
       ],
       "category": "Utility",
-      "icon": "build/icons"
+      "icon": "build/icons",
+      "desktop": {
+        "entry": {
+          "Name": "Lagsense",
+          "StartupWMClass": "lagsense",
+          "Comment": "System diagnostics assistant that explains performance issues in plain English",
+          "Categories": "Utility;",
+          "Terminal": false,
+          "Type": "Application"
+        }
+      }
     }
   }
 }
