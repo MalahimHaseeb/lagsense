@@ -1,6 +1,6 @@
 {
   "name": "lagsense",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "System diagnostics assistant that explains performance issues in plain English",
   "author": {
     "name": "MalahimHaseeb",
