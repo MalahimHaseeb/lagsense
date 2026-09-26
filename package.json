@@ -80,9 +80,7 @@
       "icon": "build/icons",
       "executableName": "lagsense",
       "desktop": {
-        "entry": {
-          "StartupWMClass": "lagsense"
-        }
+        "StartupWMClass": "lagsense"
       }
     }
   }
